@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 2rem;
+  color: yellowgreen;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 0rem;
+  margin-top: 2rem;
+  border-color: white;
+}
+input:focus {
+  outline-style: none;
+}
+
+body {
+  background-color: yellowgreen;
+}
+
+.footer {
+  margin-bottom: 0;
+  margin-left: 0;
+  background-color: black;
+  color: yellowgreen;
+  width: 20px;
+}
