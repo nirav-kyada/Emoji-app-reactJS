@@ -22,6 +22,9 @@ input:focus {
 
 body {
   background-color: yellowgreen;
+  display: block;
+  margin: auto;
+  max-width: 600px;
 }
 
 .footer {

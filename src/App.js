@@ -1,23 +1,27 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-var emojiDictionary = {
-  "😊": "smiling",
-  "😍": "love",
-  "🤩": "star Struct",
-  "🤐": "zipeed face",
-  "🤪": "crazy",
-  "👼": "baby"
-};
+const emojiDictionary = require("./emojiData.json");
 
-var textToEmojiDictionary = {
-  smiling: "😊",
-  love: "😍",
-  "star struct": "🤩",
-  "zipeed face": "🤐",
-  crazy: "🤪",
-  baby: "👼"
-};
+const textToEmojiDictionary = require("./text2emojiData.json");
+
+// var emojiDictionary = {
+//   "😊": "smiling",
+//   "😍": "love",
+//   "🤩": "star Struct",
+//   "🤐": "zipeed face",
+//   "🤪": "crazy",
+//   "👼": "baby"
+// };
+
+// var textToEmojiDictionary = {
+//   smiling: "😊",
+//   love: "😍",
+//   "star struct": "🤩",
+//   "zipeed face": "🤐",
+//   crazy: "🤪",
+//   baby: "👼"
+// };
 var emojisWeKnow = Object.keys(emojiDictionary);
 
 export default function App() {
